@@ -1,0 +1,107 @@
+:root {
+    --body-font-family: 'Roboto', sans-serif;
+    --logo-font-family: 'Raleway', sans-serif;
+}
+
+
+/* Global Style */
+body {
+    font-family: var(--body-font-family);
+}
+
+/* Classes */
+
+.logo {
+    text-transform: uppercase;
+    color: #4D5AE5;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 150%;
+    font-family: var(--logo-font-family);
+
+}
+
+.second-logo-part {
+    text-transform: uppercase;
+    color:#2E2F42;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 150%;
+    font-family:var(--logo-font-family);
+    
+}
+
+
+.nav-link {
+    color: #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color:#2E2F42;
+}
+
+.address-link {
+   color:#434455;
+   font-size:16px;
+   font-weight:400;
+   line-height:150%;
+}
+
+.address-link:hover,
+.address-link:focus {
+    color:#434455;
+}
+
+.hero-content {
+    background-color: #2E2F42;
+    color:#FFFFFF;
+    text-align:center;
+}
+
+.btn-order-service {
+    background-color: #4D5AE5;
+    color:#FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    cursor: pointer;
+}
+
+.btn-order-service:hover,
+.btn-order-service:focus {
+    background-color:rgba(0,0,0,0);
+    color:#FFFFFF
+}
+
+.skills-section {
+    color:#2E2F42;
+    font-size:20px;
+    font-weight: 500px;
+    line-height: 150%;
+}
+
+.skills-description {
+    color:#434455;
+    font-size:16px;
+    font-weight: 400;
+    line-height: 150%;
+
+}
+
+ .titles {
+    color:#2E2F42;
+    font-size:36px;
+    font-weight:700;
+    line-height: 150%;
+    text-align: center;
+}
+
+.link {
+    width: 360px;
+    height:300px;
+    border: 1px;
+}
