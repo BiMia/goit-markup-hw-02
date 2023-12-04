@@ -12,18 +12,18 @@ body {
 }
 
 /* Classes */
+.link {
+    text-decoration: none;
+}
 
 .logo {
-    text-decoration: none;
     text-transform: uppercase;
     color: #4D5AE5;
     font-size: 18px;
     font-weight: 800;
     line-height: 1.17;
-    font-family: var(--logo-font-family);
+    font-family:var(--logo-font-family);
     letter-spacing: 0.03em;
-
-
 }
 
 .second-logo-part {
@@ -36,8 +36,11 @@ body {
     letter-spacing: 0.03em;
 }
 
-.nav-link {
-    text-decoration: none;
+.list {
+    list-style: none;
+}
+
+.nav-section {
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
@@ -50,7 +53,11 @@ body {
     color:#404BBF;
 }
 
-.contact-details {
+.list {
+    list-style: none;
+}
+
+.contacts-section {
     font-style: normal;
 }
 
@@ -60,7 +67,6 @@ body {
    font-weight:400;
    line-height:150%;
    letter-spacing: 0.02em;
-   text-decoration: none;
 }
 
 .address-link:hover,
@@ -68,8 +74,11 @@ body {
     color:#404BBF;
 }
 
-.hero-content {
+.first-section {
     background-color: #2E2F42;
+}
+
+.hero-content {
     color:#FFFFFF;
     text-align:center;
     font-size:56px;
@@ -93,16 +102,19 @@ body {
     background-color:#404BBF
 }
 
+.link {
+    text-decoration: none;
+}
 
-.skills-section {
+.subtitles {
     color:#2E2F42;
     font-size:20px;
-    font-weight: 500px;
+    font-weight: 500;
     line-height: 120%;
     letter-spacing: 0.02em;
 }
 
-.skills-descriptions {
+.paragraph-subtitles {
     color:#434455;
     font-size:16px;
     font-weight:400;
@@ -121,28 +133,7 @@ body {
     text-transform: capitalize;
 }
 
-.link {
-    background-color: #FFFFFF;
-    text-decoration: none;
-}
-
-.image-title {
-    color:#2E2F42;
-    font-size:20px;
-    font-weight:500;
-    line-height: 120%;
-    letter-spacing: 0.02em;
-}
-
-.image-description {
-    color:#434455;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-}
-
-.team-section {
+.forth-section {
     background-color: #F4F4FD;
 }
 
