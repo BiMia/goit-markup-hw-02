@@ -106,11 +106,6 @@ body {
     background-color:#404BBF
 }
 
-.images {
-    text-decoration: none;
-    background-color: #FFFFFF;
-}
-
 .subtitles {
     color:#2E2F42;
     font-size:20px;
@@ -143,7 +138,7 @@ body {
 }
 
 .portfolio-buttons:hover,
-.button-all:focus {
+.portfolio-buttons:focus {
     background-color: #404BBF;
     color: #FFFFFF;
 }
